@@ -3,6 +3,31 @@
   "name": "hola",
   "createdAt": "2026-11-09T19:30:43.275Z",
   "filename": "e37b1ec5-63bd-411a-baae-6277bed0ed0a.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "eea48153-1d9c-4c18-91c9-670295d09c4d",
+      "role": "user",
+      "content": "hola habla en español",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-09T19:32:33.437Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "5145ef8b-bf3a-4a08-ac33-072ba6941270",
+      "role": "agent",
+      "content": "¡Hola! Claro que sí, a partir de ahora nos comunicaremos en español.\n\nEl espacio de trabajo está listo y conectado a tu repositorio. ¿Qué te gustaría construir o qué cambios deseas que realicemos en el proyecto?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "eea48153-1d9c-4c18-91c9-670295d09c4d",
+      "created_at": "2026-11-09T19:32:43.296Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
 }
